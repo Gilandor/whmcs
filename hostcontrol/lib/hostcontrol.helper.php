@@ -388,7 +388,7 @@ class HostControlHelper
         $customer_info = array(
             'name'              => $params["firstname"] . ' ' .$params["lastname"],
             'address'           => substr($address, 0, 62),
-            'organization'      => $params["companyname"],
+            'organisation'      => $params["companyname"],
             'zipcode'           => $params["postcode"],
             'city'              => $params["city"],
             'state'             => $params["state"],
